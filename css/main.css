@@ -1,0 +1,14 @@
+body {
+    background-image: url("/pix/skeleton-wave.gif");
+    background-repeat: repeat;
+}
+
+.header {
+    width: fit-content;
+    margin: auto;
+}
+
+h1 {
+    color: fuchsia;
+
+}
