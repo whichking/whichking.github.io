@@ -1,19 +1,69 @@
 body {
-    background-image: url("/pix/skeleton-wave.gif");
-    background-repeat: repeat;
+    /* background-image: url("/pix/skeleton-wave.gif"); */
+    /* background-repeat: repeat; */
+    background-color: #FCF0DE
 }
 
-.header {
-    width: fit-content;
-    margin: auto;
+div#a {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background-color:#ff8a65;
+    position:absolute;
 }
-
-h1 {
-    color: fuchsia;
+div#b {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#fcb900;
+    position:absolute;
 }
-
-p {
-    position: fixed;
-    bottom: 0;
-    color: fuchsia;
+div#c {
+    width: 85px;
+    height:85px;
+    border-radius: 50%;
+    background-color:#c9d365;
+    position:absolute;
+}
+div#d {
+    width: 125px;
+    height:125px;
+    border-radius: 50%;
+    background-color:#53b47c;
+    position:absolute;
+}
+div#e {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color:#9adee8;
+    position:absolute;
+}
+div#f {
+    width: 75px;
+    height:75px;
+    border-radius: 50%;
+    background-color:#cb9ad3;
+    position:absolute;
+}
+div#g {
+    width: 175px;
+    height:175px;
+    border-radius: 50%;
+    background-color:#ffc2e4;
+    position:absolute;
+}
+div#h {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#e44076;
+    position:absolute;
+}
+div#i {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#f189ed;
+    position:absolute;
 }
