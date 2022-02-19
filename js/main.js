@@ -31,19 +31,21 @@ RandomObjectMover.prototype._generateNewPosition = function() {
   var y = Math.floor(Math.random() * availableHeight);
   var x = Math.floor(Math.random() * availableWidth);
 
-  const toggleXY = Math.floor(Math.random() * 100);
+  return { x: x, y: y };
 
-  if (toggleXY < 50) {
-    if (toggleXY < 25) {
-      return { x: x, y: availableHeight };
-    }
-    return { x: x, y: 0 };
-  } else {
-    if (toggleXY < 75) {
-      return { x: availableWidth, y: y }
-    }
-    return { x: 0, y: y }
-  }
+  // const toggleXY = Math.floor(Math.random() * 100);
+
+  // if (toggleXY < 50) {
+  //   if (toggleXY < 25) {
+  //     return { x: x, y: availableHeight };
+  //   }
+  //   return { x: x, y: 0 };
+  // } else {
+  //   if (toggleXY < 75) {
+  //     return { x: availableWidth, y: y }
+  //   }
+  //   return { x: 0, y: y }
+  // }
 }
 
 RandomObjectMover.prototype._calcDelta = function(a, b) {

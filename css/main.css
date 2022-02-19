@@ -1,5 +1,6 @@
 body {
-    background-color: #FCF0DE
+    background-color: #FCF0DE;
+    overflow: hidden;
 }
 
 span#freeze {
