@@ -1,5 +1,3 @@
-
-
 function RandomObjectMover(obj, container) {
   this.$object = obj;
   this.$container = container;
@@ -109,9 +107,26 @@ RandomObjectMover.prototype.stop = function() {
 
 window.onload = () => {
   const elements = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
+  let movingElements = [];
   elements.forEach(el => {
     // Init it
     let x = new RandomObjectMover(document.getElementById(el), window);
+    console.log(x);
+    movingElements.push(x);
     x.start();
   })
+
+  document.getElementById('freeze').addEventListener('click', function() {
+    movingElements.forEach(el => {
+      console.log(el);
+      if (el.is_running) {
+        console.log("freeze!");
+        el.stop();
+      } else {
+        console.log("unfreeze");
+        el.start();
+      }
+    })
+  });
 }
+
