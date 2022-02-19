@@ -4,37 +4,46 @@ body {
     background-color: #FCF0DE
 }
 
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 div#a {
     width: 100px;
-    height:100px;
+    height: 100px;
     border-radius: 50%;
     background-color:#ff8a65;
     position:absolute;
 }
 div#b {
-    width: 50px;
-    height:50px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-color:#fcb900;
     position:absolute;
 }
 div#c {
     width: 85px;
-    height:85px;
+    height: 85px;
     border-radius: 50%;
     background-color:#c9d365;
     position:absolute;
 }
 div#d {
     width: 125px;
-    height:125px;
+    height: 125px;
     border-radius: 50%;
     background-color:#53b47c;
     position:absolute;
 }
 div#e {
     width: 150px;
-    height:150px;
+    height: 150px;
     border-radius: 50%;
     background-color:#9adee8;
     position:absolute;
@@ -43,26 +52,26 @@ div#f {
     width: 75px;
     height:75px;
     border-radius: 50%;
-    background-color:#cb9ad3;
+    background-color:#6088fe;
     position:absolute;
 }
 div#g {
     width: 175px;
-    height:175px;
+    height: 175px;
     border-radius: 50%;
     background-color:#ffc2e4;
     position:absolute;
 }
 div#h {
-    width: 50px;
-    height:50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color:#e44076;
     position:absolute;
 }
 div#i {
     width: 50px;
-    height:50px;
+    height: 50px;
     border-radius: 50%;
     background-color:#f189ed;
     position:absolute;
