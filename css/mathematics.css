@@ -1,0 +1,10 @@
+body {
+    background-image: url("/pix/graph-paper.jpg");
+}
+
+.content {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: white;
+}
